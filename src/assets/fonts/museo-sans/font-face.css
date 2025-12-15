@@ -1,0 +1,47 @@
+@font-face {
+font-family: 'Museo Sans Rounded';
+font-style: normal;
+font-weight: 100;
+font-display: swap;
+src: url('MuseoSansRounded100.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Museo Sans Rounded';
+font-style: normal;
+font-weight: 300;
+font-display: swap;
+src: url('MuseoSansRounded300.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Museo Sans Rounded';
+font-style: normal;
+font-weight: 500;
+font-display: swap;
+src: url('MuseoSansRounded500.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Museo Sans Rounded';
+font-style: normal;
+font-weight: 700;
+font-display: swap;
+src: url('MuseoSansRounded700.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Museo Sans Rounded';
+font-style: normal;
+font-weight: 900;
+font-display: swap;
+src: url('MuseoSansRounded900.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Museo Sans Rounded';
+font-style: normal;
+font-weight: 900;
+font-display: swap;
+src: url('MuseoSansRounded1000.woff') format('woff');
+}
