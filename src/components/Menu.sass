@@ -1,5 +1,13 @@
 .menu
 
+    &__burger-button
+        display: none
+        background: none
+        border: none
+        color: white
+        font-size: 2.5rem
+        cursor: pointer
+
     &__list
         display: flex
         list-style: none
@@ -13,6 +21,49 @@
         text-decoration: none
         color: white
         text-transform: uppercase
+        font-weight: 300
 
         &.active
             font-weight: bold
+
+@media (max-width: 768px)
+    .menu
+
+        $block: &
+
+        &__burger-button
+            display: flex
+            justify-content: center
+            align-items: center
+
+            #{$block}__close-icon
+                display: none
+
+            &:focus
+                #{$block}__burger-icon
+                    display: none
+                #{$block}__close-icon
+                    display: block
+
+                & + .menu__list, .menu__list:focus-within
+                    display: flex
+
+        &__list
+            order: 1
+            display: none
+            flex-direction: column
+            gap: 4rem
+            position: absolute
+            background-color: black
+            width: 100%
+            max-width: 18rem
+            padding: 1rem
+            left: 0
+            top: 5rem
+            bottom: 0
+
+        &__item
+            width: 100%
+            text-align: center
+            top: 100%
+            bottom: 0
